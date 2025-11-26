@@ -107,7 +107,7 @@ namespace Simulacro.Controllers
             return View(productos());
         }
 
-        public ActionResult Paginacion(int pagina = 0, string query = "")
+        public ActionResult Paginacion(int pagina = 0, /*string query = ""*/ int id = 0)
         {
             int cantRegistros = productos().Count();
             int nroRegMostrar = 5;
@@ -121,24 +121,31 @@ namespace Simulacro.Controllers
 
             ViewBag.npags = nroPags;
 
-            if(int.TryParse(query, out int idBuscado))
+            if (id != 0)
             {
-                Producto prod = getProductoById(idBuscado);
+                Producto prod = getProductoById(id);
 
                 if (prod == null || prod.Id == 0)
-
-                    return View(new List<Producto>());
+                
+                    return View(productos());
 
                 return View(new List<Producto> { prod });
             }
-            else
-            {
-                Producto prod = getProductoByName(query);
+            //else
+            //{
+            //    Producto prod = getProductoByName(query);
 
-                return View(prod);
-            }
+            //    return View(prod);
+            //}
 
             return View(productos().Skip(nroRegMostrar * pagina).Take(nroRegMostrar));
+        }
+
+        public ActionResult Details(int id)
+        {
+            var prod = getProductoById(id);
+
+            return View(prod);
         }
     }
 }

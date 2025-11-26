@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\simulacro\\controllers\\negocioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|solutionrelative:simulacro\\controllers\\negocioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|c:\\users\\lcond\\documents\\cibertec\\poo-ii\\simulacro\\simulacro\\views\\negocios\\paginacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\simulacro\\views\\negocios\\paginacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|solutionrelative:simulacro\\views\\negocios\\paginacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|c:\\users\\lcond\\documents\\cibertec\\poo-ii\\simulacro\\simulacro\\views\\negocios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|c:\\users\\lcond\\documents\\cibertec\\poo-ii\\simulacro\\simulacro\\views\\negocios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|solutionrelative:simulacro\\views\\negocios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|c:\\users\\lcond\\documents\\cibertec\\poo-ii\\simulacro\\simulacro\\controllers\\negocioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|solutionrelative:simulacro\\controllers\\negocioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\simulacro\\views\\negocios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2218259-4D5F-4330-B517-A1364284B00E}|Simulacro\\Simulacro.csproj|solutionrelative:simulacro\\views\\negocios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -50,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Views\\Negocios\\Details.cshtml",
+              "RelativeDocumentMoniker": "Simulacro\\Views\\Negocios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Views\\Negocios\\Details.cshtml",
+              "RelativeToolTip": "Simulacro\\Views\\Negocios\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T23:23:42.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Views\\Negocios\\Index.cshtml",
               "RelativeDocumentMoniker": "Simulacro\\Views\\Negocios\\Index.cshtml",
@@ -63,33 +80,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Paginacion.cshtml",
               "DocumentMoniker": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Views\\Negocios\\Paginacion.cshtml",
               "RelativeDocumentMoniker": "Simulacro\\Views\\Negocios\\Paginacion.cshtml",
               "ToolTip": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Views\\Negocios\\Paginacion.cshtml",
               "RelativeToolTip": "Simulacro\\Views\\Negocios\\Paginacion.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-25T19:54:35.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NegociosController.cs",
               "DocumentMoniker": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Controllers\\NegociosController.cs",
               "RelativeDocumentMoniker": "Simulacro\\Controllers\\NegociosController.cs",
-              "ToolTip": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Controllers\\NegociosController.cs*",
-              "RelativeToolTip": "Simulacro\\Controllers\\NegociosController.cs*",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAYwEoAAAAOAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Controllers\\NegociosController.cs",
+              "RelativeToolTip": "Simulacro\\Controllers\\NegociosController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAI8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T17:56:04.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\lcond\\Documents\\CIBERTEC\\POO-II\\Simulacro\\Simulacro\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Simulacro\\Models\\Producto.cs",
@@ -97,8 +114,7 @@
               "RelativeToolTip": "Simulacro\\Models\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:36:18.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T15:36:18.063Z"
             }
           ]
         }
