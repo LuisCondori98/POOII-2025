@@ -1,0 +1,64 @@
+﻿@model IEnumerable<AppWeb05.Models.Producto>
+
+@{
+    ViewBag.Title = "Paginacion";
+}
+
+<h2>Paginacion</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdProducto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PreUni)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stock)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubTotal)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdProducto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PreUni)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stock)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubTotal)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdProducto }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdProducto }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
+
+<div class="text-center">
+    @for(int i = 0; i < (int)ViewBag.npags; i++)
+    {
+           @Html.ActionLink((i + 1).ToString(), "Paginacion", new {p = i}, new {@class = "btn btn-success m-3"} )
+    }
+</div>
