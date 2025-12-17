@@ -1,0 +1,6 @@
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Entidad\bin\Debug\Demo_LuisCondori.Entidad.dll
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Entidad\bin\Debug\Demo_LuisCondori.Entidad.pdb
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Entidad\obj\Debug\Demo_LuisCondori.Entidad.csproj.AssemblyReference.cache
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Entidad\obj\Debug\Demo_LuisCondori.Entidad.csproj.CoreCompileInputs.cache
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Entidad\obj\Debug\Demo_LuisCondori.Entidad.dll
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Entidad\obj\Debug\Demo_LuisCondori.Entidad.pdb

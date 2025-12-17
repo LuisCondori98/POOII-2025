@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\lcond\\SimulacroT2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|d:\\lcond\\simulacrot2\\controllers\\mantenimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|solutionrelative:controllers\\mantenimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|d:\\lcond\\simulacrot2\\views\\mantenimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|solutionrelative:views\\mantenimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|d:\\lcond\\simulacrot2\\views\\mantenimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|solutionrelative:views\\mantenimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|d:\\lcond\\simulacrot2\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|solutionrelative:models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|d:\\lcond\\simulacrot2\\models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF29A7E-CBC8-4A12-9A61-644B6A4D5555}|SimulacroT2.csproj|solutionrelative:models\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\lcond\\SimulacroT2\\Views\\Mantenimiento\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mantenimiento\\Index.cshtml",
+              "ToolTip": "D:\\lcond\\SimulacroT2\\Views\\Mantenimiento\\Index.cshtml",
+              "RelativeToolTip": "Views\\Mantenimiento\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T01:04:17.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\lcond\\SimulacroT2\\Views\\Mantenimiento\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mantenimiento\\Create.cshtml",
+              "ToolTip": "D:\\lcond\\SimulacroT2\\Views\\Mantenimiento\\Create.cshtml",
+              "RelativeToolTip": "Views\\Mantenimiento\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T00:51:14.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nota.cs",
+              "DocumentMoniker": "D:\\lcond\\SimulacroT2\\Models\\Nota.cs",
+              "RelativeDocumentMoniker": "Models\\Nota.cs",
+              "ToolTip": "D:\\lcond\\SimulacroT2\\Models\\Nota.cs",
+              "RelativeToolTip": "Models\\Nota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:48:41.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MantenimientoController.cs",
+              "DocumentMoniker": "D:\\lcond\\SimulacroT2\\Controllers\\MantenimientoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MantenimientoController.cs",
+              "ToolTip": "D:\\lcond\\SimulacroT2\\Controllers\\MantenimientoController.cs",
+              "RelativeToolTip": "Controllers\\MantenimientoController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:19:06.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "D:\\lcond\\SimulacroT2\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "Models\\Alumno.cs",
+              "ToolTip": "D:\\lcond\\SimulacroT2\\Models\\Alumno.cs",
+              "RelativeToolTip": "Models\\Alumno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:15:09.327Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

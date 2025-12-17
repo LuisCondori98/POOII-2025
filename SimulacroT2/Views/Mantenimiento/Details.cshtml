@@ -1,0 +1,90 @@
+﻿@model SimulacroT2.Models.Alumno
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Alumno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.T1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Codigo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Codigo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApePaterno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApePaterno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApeMaterno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApeMaterno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Promedio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Promedio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new {@class = "btn btn-success"}) |
+    @Html.ActionLink("Back to List", "Index", "", new {@class = "btn btn-warning"})
+</p>

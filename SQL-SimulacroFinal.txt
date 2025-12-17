@@ -1,0 +1,149 @@
+USE master
+go
+
+CREATE DATABASE SIMULACRO_FINAL
+GO
+
+USE SIMULACRO_FINAL
+GO
+
+CREATE TABLE DBO.ALUMNOS(
+	Id int primary key identity (1,1),
+	Codigo NVARCHAR(20) NOT NULL,
+	Nombres NVARCHAR(100) NOT NULL,
+	ApePaterno NVARCHAR(100) NOT NULL,
+	ApeMaterno NVARCHAR(100) NOT NULL,
+	PromedioFinal int not null default 0
+)
+GO
+
+CREATE TABLE DBO.NOTAS(
+  Id int primary key identity (1,1),
+  CodigoAlumno NVARCHAR(20) NOT NULL,
+  NombreEvaluacion  NVARCHAR(20) NOT NULL,
+  Nota decimal not null default 0
+)
+GO
+
+/*----------------------------------------------------------------------*/
+
+INSERT INTO Dbo.ALUMNOS
+	(Codigo, Nombres, ApePaterno, ApeMaterno, PromedioFinal)
+	VALUES
+	('I20207606','Jorge','Vargas','Sosa', 15),
+	('I20207607','Juan','Pachas','Sanchez', 13),
+	('I20207608','Luis','Cardenas','Rivera', 16),
+	('I20207609','Pedro','Barreto','Diaz', 13)
+GO
+
+
+	INSERT dbo.NOTAS 
+	(CodigoAlumno, NombreEvaluacion, Nota)
+	VALUES
+	('I20207606','T1',14),
+	('I20207606','T2',15),
+	('I20207606','T3',16),
+	('I20207607','T1',16),
+	('I20207607','T2',14),
+	('I20207607','T3',10),
+	('I20207608','T1',17),
+	('I20207608','T2',15),
+	('I20207608','T3',16),
+	('I20207609','T1',14),
+	('I20207609','T2',16),
+	('I20207609','T3',09)
+	GO
+
+
+/*----------------------------------------------------------------------*/
+
+CREATE OR ALTER PROCEDURE sp_listar_alumnos 
+@filtro NVARCHAR(20) = NULL
+AS
+BEGIN
+SELECT 
+	ID, Codigo, Nombres, ApePaterno, ApeMaterno, PromedioFinal
+FROM dbo.ALUMNOS AL
+WHERE 
+	Codigo LIKE '%' + @filtro + '%' 
+	OR Nombres LIKE '%' + @filtro + '%' 
+	OR ApePaterno LIKE '%' + @filtro + '%' 
+	OR ApeMaterno LIKE '%' + @filtro + '%' 
+END
+GO
+
+exec sp_listar_alumnos I20207606
+GO
+
+CREATE OR ALTER PROCEDURE sp_obtener_alumno 
+@codigo NVARCHAR(20) = NULL
+AS
+BEGIN
+SELECT 
+	AL.ID, Codigo, Nombres, ApePaterno, ApeMaterno, PromedioFinal
+FROM dbo.ALUMNOS AL 
+WHERE 
+	Codigo = @codigo;
+END
+GO
+
+CREATE OR ALTER PROCEDURE sp_insertar_alumno
+@Codigo NVARCHAR(20),
+@Nombres NVARCHAR(100),
+@ApePaterno NVARCHAR(100),
+@ApeMaterno NVARCHAR(100),
+@PromedioFinal int
+AS
+BEGIN
+	INSERT INTO Dbo.ALUMNOS
+	(Codigo, Nombres, ApePaterno, ApeMaterno, PromedioFinal)
+	VALUES
+	(@Codigo, @Nombres, @ApePaterno, @ApeMaterno, @PromedioFinal)
+END
+GO
+
+CREATE OR ALTER PROCEDURE sp_eliminar_alumno
+@Codigo NVARCHAR(20)
+AS
+BEGIN
+	DELETE FROM dbo.ALUMNOS
+	WHERE 
+	Codigo = @Codigo
+END
+GO
+
+CREATE OR ALTER PROCEDURE sp_insertar_nota
+@Codigo NVARCHAR(20),
+@NombreEvaluacion NVARCHAR(20),
+@Nota DECIMAL
+AS
+BEGIN
+	INSERT INTO Dbo.NOTAS
+	(CodigoAlumno, NombreEvaluacion, Nota)
+	VALUES
+	(@Codigo,  @NombreEvaluacion, @Nota)
+END
+GO
+
+CREATE OR ALTER PROCEDURE sp_eliminar_notas_por_codigoalumno
+@Codigo NVARCHAR(20)
+AS
+BEGIN
+	DELETE FROM dbo.NOTAS
+	WHERE
+	CodigoAlumno = @Codigo
+END
+GO
+
+
+CREATE OR ALTER PROCEDURE sp_listar_notas_por_codigoalumno
+@codigo NVARCHAR(20) = NULL
+AS
+	BEGIN
+	SELECT
+		ID, CodigoAlumno, NombreEvaluacion, Nota
+	FROM dbo.NOTAS N
+	WHERE
+		CodigoAlumno = @codigo
+	END
+GO

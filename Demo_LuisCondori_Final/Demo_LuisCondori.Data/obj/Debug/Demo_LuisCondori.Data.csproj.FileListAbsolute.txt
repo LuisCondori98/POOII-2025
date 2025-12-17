@@ -1,0 +1,9 @@
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Data.dll
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Data.pdb
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.csproj.AssemblyReference.cache
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.csproj.CoreCompileInputs.cache
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.dll
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.pdb
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Entidad.dll
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Entidad.pdb
+D:\lcond\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_Lui.F80B1B5E.Up2Date
