@@ -30,6 +30,7 @@ namespace Demo_LuisCondori.Data
             cmd.Parameters.AddWithValue("@filtro", filtro);
 
             SqlDataReader dr = cmd.ExecuteReader();
+
             while (dr.Read())
             {
                 listaAlumnos.Add(new Alumno()
