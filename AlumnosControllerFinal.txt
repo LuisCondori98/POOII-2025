@@ -1,0 +1,107 @@
+using Demo_JorgeVargas.Data;
+using Demo_JorgeVargas.Entidad.Abstraccion;
+using Demo_JorgeVargas.Entidad.Entidad;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.Mvc;
+
+namespace Demo_JorgeVargas_Web.Controllers
+{
+    public class AlumnosController : Controller
+    {
+
+        IAlumnoServicio _alumnoServicio = new AlumnoServicio();
+        ICalificacionServicio _calificacionServicio = new CalificacionServicio();
+
+        // GET: Alumnos
+        public ActionResult Index(string filtro = "")
+        {
+            return View(_alumnoServicio.filtrarAlumnos(filtro));
+        }
+
+        /*-- Ver Detalle Alumno --*/
+        public ActionResult Details(string codigo = "")
+        {
+            Alumno alumnoDetalle = _alumnoServicio.obtenerAlumno(codigo);
+            alumnoDetalle.Calificaciones = _calificacionServicio.listarCalificaciones(codigo).ToList();
+
+            return View(alumnoDetalle);
+        }
+
+        /*Eliminar Alumno*/
+        public ActionResult Delete(string codigo = "")
+        {
+            string alumnoDetalle = _alumnoServicio.eliminar_alumno(codigo);
+            ViewBag.mensaje = alumnoDetalle;
+
+            return View("Index", _alumnoServicio.filtrarAlumnos(""));
+        }
+
+        /*Crear Alumno*/
+        public ActionResult Create()
+        {
+            List<Calificacion> listaCalificacion = new List<Calificacion>();
+
+            if (Session["listaCalificacion"] != null)
+                listaCalificacion = JsonConvert.DeserializeObject<List<Calificacion>>((string)Session["listaCalificacion"]);
+
+            ViewBag.listaCalificacion = listaCalificacion;
+
+            return View(new Alumno());
+        }
+
+        [HttpPost]
+        public ActionResult Create(Alumno alumno)
+        {
+            List<Calificacion> listaCalificacion = new List<Calificacion>();
+
+            if (Session["listaCalificacion"] != null)
+                listaCalificacion = JsonConvert.DeserializeObject<List<Calificacion>>((string)Session["listaCalificacion"]);
+
+            if (listaCalificacion.Any())
+            {
+                alumno.PromedioFinal = Convert.ToInt32(listaCalificacion.Average(x => x.Nota));
+                alumno.Calificaciones = listaCalificacion;
+                ViewBag.mensaje = _alumnoServicio.insertar_alumno(alumno);
+            }
+            else
+            {
+                ViewBag.mensaje = "No se puede crear un alumno sin calificaciones";
+            }
+
+            ViewBag.listaCalificacion = listaCalificacion;
+
+            return View(alumno);
+        }
+
+        public ActionResult AgregarNota()
+        {
+            return View(new Calificacion());
+        }
+        [HttpPost]
+        public ActionResult AgregarNota(string nombreEvaluacion, decimal nota)
+        {
+            List<Calificacion> listaCalificacion = new List<Calificacion>();
+
+            if (Session["listaCalificacion"] != null)
+                listaCalificacion = JsonConvert.DeserializeObject<List<Calificacion>>((string)Session["listaCalificacion"]);
+
+            listaCalificacion.Add(new Calificacion()
+            {
+                Id = listaCalificacion.Count() + 1,
+                NombreEvaluacion = nombreEvaluacion,
+                Nota = nota
+            });
+
+
+            //almacenamos nuevamente el carrito
+            Session["listaCalificacion"] = JsonConvert.SerializeObject(listaCalificacion);
+
+            return RedirectToAction("Create");
+        }
+
+
+    }
+} 
