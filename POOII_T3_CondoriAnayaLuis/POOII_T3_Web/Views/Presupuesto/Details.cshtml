@@ -1,0 +1,46 @@
+﻿@model IEnumerable<T3_CondoriAnayaLuis.Entidad.Entidad.PresupuestoDetalle>
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalle del presupuesto con ID @ViewBag.id</h2>
+
+<p>
+    @Html.ActionLink("Regresar", "Index", "", new {@class="btn btn-primary"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubTotal)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubTotal)
+        </td>
+    </tr>
+}
+
+</table>

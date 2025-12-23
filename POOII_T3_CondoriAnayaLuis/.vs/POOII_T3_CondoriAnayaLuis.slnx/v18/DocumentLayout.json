@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|c:\\users\\usrcdisl.cibertec\\documents\\lcond\\pooii_t3_condorianayaluis\\pooii_t3_web\\views\\shared\\_partialpresupuestodetalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|solutionrelative:pooii_t3_web\\views\\shared\\_partialpresupuestodetalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|c:\\users\\usrcdisl.cibertec\\documents\\lcond\\pooii_t3_condorianayaluis\\pooii_t3_web\\controllers\\presupuestocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|solutionrelative:pooii_t3_web\\controllers\\presupuestocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|c:\\users\\usrcdisl.cibertec\\documents\\lcond\\pooii_t3_condorianayaluis\\pooii_t3_web\\views\\presupuesto\\agregardetalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|solutionrelative:pooii_t3_web\\views\\presupuesto\\agregardetalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|c:\\users\\usrcdisl.cibertec\\documents\\lcond\\pooii_t3_condorianayaluis\\pooii_t3_web\\views\\presupuesto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|solutionrelative:pooii_t3_web\\views\\presupuesto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\pooii_t3_web\\views\\presupuesto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|solutionrelative:pooii_t3_web\\views\\presupuesto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|c:\\users\\usrcdisl.cibertec\\documents\\lcond\\pooii_t3_condorianayaluis\\pooii_t3_web\\views\\presupuesto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1BDC1ED-622C-4834-A616-16F175D8D905}|POOII_T3_Web\\POOII_T3_Web.csproj|solutionrelative:pooii_t3_web\\views\\presupuesto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\Index.cshtml",
+              "RelativeDocumentMoniker": "POOII_T3_Web\\Views\\Presupuesto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\Index.cshtml",
+              "RelativeToolTip": "POOII_T3_Web\\Views\\Presupuesto\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T22:06:52.467Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_PartialPresupuestoDetalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Shared\\_PartialPresupuestoDetalle.cshtml",
+              "RelativeDocumentMoniker": "POOII_T3_Web\\Views\\Shared\\_PartialPresupuestoDetalle.cshtml",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Shared\\_PartialPresupuestoDetalle.cshtml",
+              "RelativeToolTip": "POOII_T3_Web\\Views\\Shared\\_PartialPresupuestoDetalle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T23:54:48.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\Details.cshtml",
+              "RelativeDocumentMoniker": "POOII_T3_Web\\Views\\Presupuesto\\Details.cshtml",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\Details.cshtml",
+              "RelativeToolTip": "POOII_T3_Web\\Views\\Presupuesto\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T23:54:42.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgregarDetalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\AgregarDetalle.cshtml",
+              "RelativeDocumentMoniker": "POOII_T3_Web\\Views\\Presupuesto\\AgregarDetalle.cshtml",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\AgregarDetalle.cshtml",
+              "RelativeToolTip": "POOII_T3_Web\\Views\\Presupuesto\\AgregarDetalle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T23:54:40.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\Create.cshtml",
+              "RelativeDocumentMoniker": "POOII_T3_Web\\Views\\Presupuesto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Views\\Presupuesto\\Create.cshtml",
+              "RelativeToolTip": "POOII_T3_Web\\Views\\Presupuesto\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T23:54:35.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PresupuestoController.cs",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Controllers\\PresupuestoController.cs",
+              "RelativeDocumentMoniker": "POOII_T3_Web\\Controllers\\PresupuestoController.cs",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\lcond\\POOII_T3_CondoriAnayaLuis\\POOII_T3_Web\\Controllers\\PresupuestoController.cs",
+              "RelativeToolTip": "POOII_T3_Web\\Controllers\\PresupuestoController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwD4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T23:43:34.491Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

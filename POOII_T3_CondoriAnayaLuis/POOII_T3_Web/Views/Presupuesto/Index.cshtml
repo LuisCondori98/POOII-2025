@@ -1,0 +1,59 @@
+﻿@model IEnumerable<T3_CondoriAnayaLuis.Entidad.Entidad.Presupuesto>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de presupuestos</h2>
+
+<p>
+    @Html.ActionLink("Nuevo Presupuesto", "Create", "", new {@class = "btn btn-primary"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Total)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaCreacion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Total)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaCreacion)
+        </td>
+        <td>
+            @Html.ActionLink("Ver Detalle", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>
+<div>
+    @ViewBag.mensaje
+</div>

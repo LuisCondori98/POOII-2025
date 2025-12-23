@@ -1,0 +1,9 @@
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\bin\Debug\T3_CondoriAnayaLuis.Data.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\bin\Debug\T3_CondoriAnayaLuis.Data.pdb
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\obj\Debug\T3_CondoriAnayaLuis.Data.csproj.AssemblyReference.cache
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\obj\Debug\T3_CondoriAnayaLuis.Data.csproj.CoreCompileInputs.cache
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\obj\Debug\T3_CondoriAnayaLuis.Data.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\obj\Debug\T3_CondoriAnayaLuis.Data.pdb
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\bin\Debug\T3_CondoriAnayaLuis.Entidad.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\bin\Debug\T3_CondoriAnayaLuis.Entidad.pdb
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Data\obj\Debug\T3_Condo.9544477D.Up2Date

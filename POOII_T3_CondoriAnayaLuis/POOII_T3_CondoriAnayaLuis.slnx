@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Dominio/" />
+  <Folder Name="/Dominio/Entidad/">
+    <Project Path="T3_CondoriAnayaLuis.Entidad/T3_CondoriAnayaLuis.Entidad.csproj" Id="cadaa90e-9509-4869-97f8-ac8d0a5cc8d3" />
+  </Folder>
+  <Folder Name="/Infraestructura/" />
+  <Folder Name="/Infraestructura/Data/">
+    <Project Path="T3_CondoriAnayaLuis.Data/T3_CondoriAnayaLuis.Data.csproj" Id="1ce26ab5-fbd2-4528-a43b-bc2a11f8c7c2" />
+  </Folder>
+  <Folder Name="/UserInterface/" />
+  <Folder Name="/UserInterface/Web/">
+    <Project Path="POOII_T3_Web/POOII_T3_Web.csproj" Id="e1bdc1ed-622c-4834-a616-16f175d8d905" />
+  </Folder>
+</Solution>

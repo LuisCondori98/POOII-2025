@@ -1,0 +1,6 @@
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Entidad\bin\Debug\T3_CondoriAnayaLuis.Entidad.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Entidad\bin\Debug\T3_CondoriAnayaLuis.Entidad.pdb
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Entidad\obj\Debug\T3_CondoriAnayaLuis.Entidad.csproj.AssemblyReference.cache
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Entidad\obj\Debug\T3_CondoriAnayaLuis.Entidad.csproj.CoreCompileInputs.cache
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Entidad\obj\Debug\T3_CondoriAnayaLuis.Entidad.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\lcond\POOII_T3_CondoriAnayaLuis\T3_CondoriAnayaLuis.Entidad\obj\Debug\T3_CondoriAnayaLuis.Entidad.pdb

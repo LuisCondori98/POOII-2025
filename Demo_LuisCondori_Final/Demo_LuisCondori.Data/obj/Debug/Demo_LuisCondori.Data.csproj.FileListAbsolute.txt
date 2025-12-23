@@ -16,3 +16,12 @@ D:\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCo
 D:\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.csproj.CopyComplete
 D:\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.dll
 D:\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.pdb
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Data.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Data.pdb
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Entidad.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\bin\Debug\Demo_LuisCondori.Entidad.pdb
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.csproj.AssemblyReference.cache
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.csproj.CoreCompileInputs.cache
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_Lui.F80B1B5E.Up2Date
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.dll
+C:\Users\usrcdisl.CIBERTEC\Documents\POOII-2025\Demo_LuisCondori_Final\Demo_LuisCondori.Data\obj\Debug\Demo_LuisCondori.Data.pdb

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\lcond\\Demo_LuisCondori_Final\\",
+  "WorkspaceRootPath": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\POOII-2025\\Demo_LuisCondori_Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20B1BC2D-6420-44A8-97BE-1AF27EF6D0CB}|Demo_LuisCondori.Data\\Demo_LuisCondori.Data.csproj|E:\\lcond\\Demo_LuisCondori_Final\\demo_luiscondori.data\\alumnoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B1BC2D-6420-44A8-97BE-1AF27EF6D0CB}|Demo_LuisCondori.Data\\Demo_LuisCondori.Data.csproj|solutionrelative:demo_luiscondori.data\\alumnoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65F68CBC-45C4-435C-AE6C-4ADAE8F9F7F9}|Demo_LuisCondori_Web\\Demo_LuisCondori_Web.csproj|C:\\Users\\usrcdisl.CIBERTEC\\Documents\\POOII-2025\\Demo_LuisCondori_Final\\demo_luiscondori_web\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65F68CBC-45C4-435C-AE6C-4ADAE8F9F7F9}|Demo_LuisCondori_Web\\Demo_LuisCondori_Web.csproj|solutionrelative:demo_luiscondori_web\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20B1BC2D-6420-44A8-97BE-1AF27EF6D0CB}|Demo_LuisCondori.Data\\Demo_LuisCondori.Data.csproj|e:\\lcond\\demo_luiscondori_final\\demo_luiscondori.data\\calificacionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B1BC2D-6420-44A8-97BE-1AF27EF6D0CB}|Demo_LuisCondori.Data\\Demo_LuisCondori.Data.csproj|solutionrelative:demo_luiscondori.data\\calificacionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65F68CBC-45C4-435C-AE6C-4ADAE8F9F7F9}|Demo_LuisCondori_Web\\Demo_LuisCondori_Web.csproj|c:\\users\\usrcdisl.cibertec\\documents\\pooii-2025\\demo_luiscondori_final\\demo_luiscondori_web\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F68CBC-45C4-435C-AE6C-4ADAE8F9F7F9}|Demo_LuisCondori_Web\\Demo_LuisCondori_Web.csproj|solutionrelative:demo_luiscondori_web\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CalificacionServicio.cs",
-              "DocumentMoniker": "E:\\lcond\\Demo_LuisCondori_Final\\Demo_LuisCondori.Data\\CalificacionServicio.cs",
-              "RelativeDocumentMoniker": "Demo_LuisCondori.Data\\CalificacionServicio.cs",
-              "ToolTip": "E:\\lcond\\Demo_LuisCondori_Final\\Demo_LuisCondori.Data\\CalificacionServicio.cs",
-              "RelativeToolTip": "Demo_LuisCondori.Data\\CalificacionServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T21:50:36.892Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\POOII-2025\\Demo_LuisCondori_Final\\Demo_LuisCondori_Web\\Views\\Alumno\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo_LuisCondori_Web\\Views\\Alumno\\Index.cshtml",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\POOII-2025\\Demo_LuisCondori_Final\\Demo_LuisCondori_Web\\Views\\Alumno\\Index.cshtml",
+              "RelativeToolTip": "Demo_LuisCondori_Web\\Views\\Alumno\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T21:49:35.266Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlumnoServicio.cs",
-              "DocumentMoniker": "E:\\lcond\\Demo_LuisCondori_Final\\Demo_LuisCondori.Data\\AlumnoServicio.cs",
-              "RelativeDocumentMoniker": "Demo_LuisCondori.Data\\AlumnoServicio.cs",
-              "ToolTip": "E:\\lcond\\Demo_LuisCondori_Final\\Demo_LuisCondori.Data\\AlumnoServicio.cs",
-              "RelativeToolTip": "Demo_LuisCondori.Data\\AlumnoServicio.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAgwCkAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\POOII-2025\\Demo_LuisCondori_Final\\Demo_LuisCondori_Web\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "Demo_LuisCondori_Web\\Controllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\usrcdisl.CIBERTEC\\Documents\\POOII-2025\\Demo_LuisCondori_Final\\Demo_LuisCondori_Web\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "Demo_LuisCondori_Web\\Controllers\\AlumnoController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwBYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T21:27:25.548Z",
+              "WhenOpened": "2025-12-22T21:52:41.624Z",
               "EditorCaption": ""
             }
           ]
